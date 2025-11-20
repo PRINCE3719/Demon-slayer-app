@@ -1,4 +1,6 @@
-body{
+html, body, #root {
   margin: 0;
   padding: 0;
+  /* Ensure main elements take up the full height to support min-h-screen */
+  height: 100%;
 }
