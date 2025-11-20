@@ -37,11 +37,11 @@ const Footer = ({ homeRef, characterRef }) => {
           {[FaInstagram, FaGithub].map((Icon, i) => (
             <a
               key={i}
-              href="#"
+              href="https://www.instagram.com/_pr_i_nce/#"
               className="
                 p-3 rounded-full 
-                bg-gradient-to-tr from-red-500 to-yellow-400 
-                text-black hover:shadow-lg hover:scale-110 
+                bg-black 
+                text-white border-white hover:shadow-lg hover:scale-110 
                 transition transform duration-300
               "
             >

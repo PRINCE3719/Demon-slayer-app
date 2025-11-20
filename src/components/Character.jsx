@@ -39,10 +39,11 @@ const Character = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex flex-col w-full items-center px-4">
-      
-      {/* Title */}
-      <h1 className="text-center pt-10 pb-6 text-4xl font-bold">
+      <div className="min-h-screen bg-gray-900 text-white flex flex-col w-full items-center px-4 ">
+        
+        
+        {/* Title */}
+        <h1 className="text-center pt-10 pb-6 text-4xl font-bold">
         Characters
       </h1>
 
@@ -117,7 +118,8 @@ const Character = () => {
           <div className="w-full md:w-1/3 flex justify-center">
             <img
               src={char.img}
-              className="w-48 h-auto rounded-lg shadow-md"
+              className="w-48 h-auto rounded-lg shadow-md transform transition-transform duration-300 
+                hover:scale-110 cursor-pointer"
               alt={char.name}
             />
           </div>
